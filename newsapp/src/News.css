@@ -1,0 +1,24 @@
+.grid{
+    width:97%;
+    margin:0px auto;
+    padding:0.5rem 0.5rem 0.5rem 2rem ;
+    display:grid;
+    /* grid-template-columns: 400px 400px 400px; */
+    grid-template-columns: repeat(auto-fit,minmax(450px,auto));
+    /* grid-gap: 2rem;
+     */
+     grid-column-gap: 2rem;
+     grid-row-gap:1rem ;
+    justify-content: center ;
+     align-items: center; 
+    /* border:3px solid red; */
+    box-sizing: border-box;
+    /* box-shadow: 1px 1px black; */
+
+
+}
+.btn:disabled{
+    cursor:not-allowed;
+    background-color: black;
+    
+}
